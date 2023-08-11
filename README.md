@@ -40,5 +40,6 @@ pip install requests
 
 ## TODO
 
--   [ ] Add support for videos
--   [ ] Add support for stories
+-   [ ] Detect and download new top images without scanning all.
+-   [ ] Add support for videos.
+-   [ ] Add support for stories.
