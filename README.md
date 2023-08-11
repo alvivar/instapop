@@ -3,6 +3,10 @@
 Simple Instagram image scrapper.
 
 ```
+python instapop.py someuser
+```
+
+```
 usage: instapop.py [-h] user
 
 Scraps Instagram images
@@ -20,9 +24,11 @@ options:
 
 ```
 pip install pytest-playwright
+```
 
-Install the required browsers:
+Then to install the required browsers:
 
+```
 playwright install
 ```
 
