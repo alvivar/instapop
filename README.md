@@ -32,7 +32,6 @@ INSTAGRAM_PASSWORD = your_instagram_password
 -   [Playwright](https://playwright.dev/python/docs/intro)
 
 ```
-
 pip install pytest-playwright
 
 ```
@@ -40,7 +39,6 @@ pip install pytest-playwright
 Then to install the required browsers:
 
 ```
-
 playwright install
 
 ```
@@ -48,17 +46,12 @@ playwright install
 -   [Requests](https://pypi.org/project/requests/)
 
 ```
-
 pip install requests
-
 ```
 
 ## TODO
 
+-   [ ] Needs to rest to fake humanity.
 -   [ ] Detect and download new top images without scanning all.
 -   [ ] Add support for videos.
 -   [ ] Add support for stories.
-
-```
-
-```
