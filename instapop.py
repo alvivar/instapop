@@ -55,7 +55,7 @@ def goto_profile(page, username):
 
 def scrap_images(user, urls=[]):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch()
         browser.new_context(viewport={"width": 3840, "height": 2160})
         page = browser.new_page()
 
