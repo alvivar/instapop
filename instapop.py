@@ -1,3 +1,8 @@
+"""
+Scraps Instagram images from a user profile.
+"""
+
+
 import argparse
 import os
 

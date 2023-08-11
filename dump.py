@@ -1,3 +1,8 @@
+"""
+Writes and reads JSON files.
+"""
+
+
 import json
 import os
 
