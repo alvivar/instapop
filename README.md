@@ -31,3 +31,8 @@ playwright install
 ```
 pip install requests
 ```
+
+## TODO
+
+-   [ ] Add support for videos
+-   [ ] Add support for stories
