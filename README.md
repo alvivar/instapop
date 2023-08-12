@@ -33,14 +33,12 @@ INSTAGRAM_PASSWORD = your_instagram_password
 
 ```
 pip install pytest-playwright
-
 ```
 
 Then to install the required browsers:
 
 ```
 playwright install
-
 ```
 
 -   [Requests](https://pypi.org/project/requests/)
