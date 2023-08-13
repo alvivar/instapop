@@ -24,6 +24,8 @@ If you choose to use this script, you are doing so entirely at your own risk. Th
 
 So, it's uncertain what might happen if you were to use this script excessively.
 
+_Be humble._
+
 ## Authentication
 
 This scripts expects an ".env" file with the following variables:
@@ -41,7 +43,7 @@ INSTAGRAM_PASSWORD = your_instagram_password
 pip install pytest-playwright
 ```
 
-Then to install the required browsers:
+Then install the required browsers:
 
 ```
 playwright install
@@ -55,7 +57,7 @@ pip install requests
 
 ## TODO
 
--   [ ] Needs to rest to fake humanity.
+-   [ ] Needs to rest and fake humanity (User agent).
 -   [ ] Detect and download new top images without scanning all.
 -   [ ] Add support for videos.
 -   [ ] Add support for stories.
