@@ -1,3 +1,5 @@
+# Disclaimer
+
 **Purpose and Usage:** This script, henceforth referred to as **instapop.py**, is designed exclusively for educational purposes. Its intended use is to demonstrate theoretical concepts, methodologies, or techniques and is not meant for any unauthorized interactions with Instagram's platform or other improper activities.
 
 **Risk Acknowledgment:** If you choose to use **instapop.py**, you acknowledge that you do so entirely at your own risk. While this script is provided for educational insight, users must be aware of and comply with all relevant laws, regulations, and terms of service, including Instagram's Terms of Use.
