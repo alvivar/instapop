@@ -18,6 +18,12 @@ options:
   -h, --help  show this help message and exit
 ```
 
+## [Disclaimer](DISCLAIMER.md)
+
+If you choose to use this script, you are doing so entirely at your own risk. The script is intended solely for educational purposes, and I cannot be held responsible for any actions that Instagram may take against you for using it. For example, some users have been unable to log in temporarily (6h~) after downloading approximately 5,000 images in a couple hours.
+
+So, it's uncertain what might happen if you were to use this script excessively.
+
 ## Authentication
 
 This scripts expects an ".env" file with the following variables:
