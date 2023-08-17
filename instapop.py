@@ -68,6 +68,7 @@ def scrap_images(user, urls=[]):
 
         count = 0
         while True:
+            page.wait_for_timeout(100)
             images = page.query_selector_all("div._aagv img")
             next_button = page.query_selector("svg[aria-label='Next']")
 
