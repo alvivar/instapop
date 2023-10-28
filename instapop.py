@@ -64,11 +64,12 @@ def scrap_images(user, urls=[]):
 
         page.query_selector("div._aagv img").click()  # The magical tag
         page.wait_for_selector("svg[aria-label='Next']")
+        page.wait_for_timeout(1000)
         page.screenshot(path=f"{SNAPS_DIR}/{user}_first.png")
 
         count = 0
         while True:
-            page.wait_for_timeout(100)
+            page.wait_for_timeout(200)
             images = page.query_selector_all("div._aagv img")
             next_button = page.query_selector("svg[aria-label='Next']")
 
