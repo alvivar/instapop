@@ -53,10 +53,12 @@ def goto_profile(page, username):
 
 
 def scrap_images(user, urls=[]):
+    AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/96.0.1054.62"
+
     with sync_playwright() as p:
         browser = p.chromium.launch()  # headless=False)  # Open browser visibly
         browser.new_context(viewport={"width": 3840, "height": 2160})
-        page = browser.new_page()
+        page = browser.new_page(user_agent=AGENT)
 
         login(page)
         goto_profile(page, user)
